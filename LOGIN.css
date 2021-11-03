@@ -1,0 +1,48 @@
+html
+{
+  width : 100%;
+  height : 100%;
+}
+body /*, div, fieldset, legend, input*/
+{
+  margin: 0;
+  padding: 0;
+  width : 100%;
+  height : 100%;
+}
+
+a
+{
+  text-decoration:none
+}
+
+.bg
+{
+  opacity: 0.5;
+  position: absolute;
+  left: 32%;
+  top: 10%;
+  width: 500px;
+  height: 500px;
+  z-index : -999999;
+}
+
+form
+{
+  position : relative;
+  width : 100%;
+  height : 15%;
+  margin : 20% auto;
+  z-index : 0;
+}
+
+fieldset
+{
+  position : absolute;
+  left: 40.7%;
+  width : 20%;
+  height : 140%;
+  margin : auto auto;
+  z-index : 1;
+  background-color: white;
+}

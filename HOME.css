@@ -1,0 +1,297 @@
+*{margin: 0px; padding: 0px;}
+ul{list-style: none;}
+a{text-decoration: none;}
+
+#menu{
+    width: auto; 
+    height: 40px;
+    background-color: #4e0083;
+    position: relative;
+}
+
+#logo{
+    position: absolute;
+    top: 40px;
+    left: 130px;
+}
+
+#head{
+    width: auto; 
+    height: 80px;
+    background-color: white;
+}
+
+#top_menu{
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    font-size: smaller;
+    color: white;
+}
+
+#top_menu a{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav{
+    position: absolute;
+    top: 55px;
+    right: 15%;
+    font-size: larger;
+    color: rgb(126, 126, 126);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li{
+    float: left;
+}
+
+li a, .sub1 ,.sub2, .sub3, .sub4, .sub5{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: medium;
+}
+
+li a:hover, .submenu1:hover, .sub1:hover, .submenu2:hover, .sub2:hover, .submenu3:hover, .sub3:hover, .submenu4:hover, .sub4:hover, .submenu5:hover, .sub5:hover{
+    background-color: rgb(218, 218, 218);
+}
+
+li.submenu1, li.submenu2, li.submenu3, li.submenu4, li.submenu5{
+    display: inline-block;
+}
+
+.submenu1-1, .submenu2-2, .submenu3-3, .submenu4-4, .submenu5-5{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.submenu1-1 a, .submenu2-2 a, .submenu3-3 a, .submenu4-4 a, .submenu5-5 a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: small;
+}
+
+.submenu1-1 a:hover, .submenu2-2 a:hover, .submenu3-3 a:hover, .submenu4-4 a:hover, .submenu5-5 a:hover{background-color: rgb(216, 216, 216);}
+.submenu1:hover .submenu1-1, .submenu2:hover .submenu2-2, .submenu3:hover .submenu3-3, .submenu4:hover .submenu4-4, .submenu5:hover .submenu5-5{display: block;}
+
+#main{opacity:0.7;}
+
+#ganzi{
+    position:absolute;
+    top: 27%;
+    left: 24%;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Nanum Brush Script', cursive;
+    color: rgb(0, 0, 0);
+}
+
+#ganzi1{
+    position:absolute;
+    top: 44%;
+    left: 40%;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(68, 68, 68);
+}
+
+#box{
+    position:absolute;
+    top: 65%;
+    left: 7%;
+    width: 31.7%;
+    background: rgb(255, 255, 255);
+    border: 0px
+}
+
+#box h1{
+    text-align: left;
+    font-size: x-large;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 25px;
+}
+
+.notice{
+    font-size: small;
+    margin: 0;
+    padding: 15px;
+    text-align: left;
+    line-height: 2.5;
+}
+
+#box1{
+    position:absolute;
+    top: 110%;
+    left: 7%;
+    width: 31.7%;
+    background: rgb(255, 246, 220);
+    border: 0px
+}
+
+#box1 h1{
+    text-align: left;
+    font-size: x-large;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 25px;
+}
+
+.notice1{
+    font-size: small;
+    margin: 0;
+    padding: 15px;
+    text-align: left;
+    line-height: 2.5;
+}
+
+#box2{
+    position:absolute;
+    top: 65%;
+    right: 7%;
+    width: 51.4%;
+    height: 244.5px;
+    background: rgb(238, 238, 238);
+    border: 0px
+}
+
+#box2 h1{
+    text-align: left;
+    font-size: x-large;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 25px;
+}
+
+.notice2{
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    font-size: medium;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    line-height: 2.5;
+}
+
+#box3{
+    position:absolute;
+    top: 110%;
+    right: 33.9%;
+    width: 24.5%;
+    background: rgb(238, 254, 255);
+    border: 0px
+}
+
+#box3 h1{
+    text-align: left;
+    font-size: x-large;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 25px;
+}
+
+.notice3{
+    font-size: small;
+    margin: 0;
+    padding: 15px;
+    text-align: left;
+    line-height: 2.5;
+}
+
+#box4{
+    position:absolute;
+    top: 110%;
+    right: 7%;
+    width: 24.5%;
+    background: rgb(241, 255, 222);
+    border: 0px
+}
+
+#box4 h1{
+    text-align: left;
+    font-size: x-large;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 25px;
+}
+
+.notice4{
+    font-size: small;
+    margin: 0;
+    padding: 15px;
+    text-align: left;
+    line-height: 2.5;
+}
+
+.notice a, .notice1 a, .notice2 a, .notice3 a, .notice4 a{
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color: black;
+}
+
+footer{
+    width: auto; 
+    height: 170px;
+    background-color: #f7f7f7;
+    position: relative;
+}
+
+#logo1{
+    position: absolute;
+    bottom: 80px;
+    left: 250px;
+}
+
+#infor{
+    position: absolute;
+    bottom: 107px;
+    right: 350px;
+    font-size: small;
+    color: rgb(0, 0, 0);
+}
+
+#infor a{
+    color: rgb(0, 0, 0);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+p1{
+    position: absolute;
+    bottom: 50px;
+    right: 330px;
+    font-size: small;
+    color: rgb(0, 0, 0);
+}
+
+p2{
+    position: absolute;
+    bottom: 50px;
+    right: 180px;
+    font-size: small;
+    color: rgb(0, 0, 0);
+}
