@@ -1,0 +1,33 @@
+.content{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.item{
+    min-height: 200px;
+    min-width: 400px;
+    flex-grow: 0;
+    padding: 15px 35px 5px 35px;
+    margin: 5px;
+    width: 80px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.face img{
+    border-radius: 50%;
+}
+
+ul, li{
+    list-style: none;
+}
+
+.name{
+    font-size: 25px;
+    font-weight: bold;
+}
