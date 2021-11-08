@@ -51,7 +51,7 @@ ul{
     background-color: white;
 }
 
-li{
+#head li{
     float: left;
 }
 
@@ -168,9 +168,14 @@ nav li.submenu1, li.submenu2, li.submenu3, li.submenu4, li.submenu5{
 .next{
     margin-bottom: 3px;
     list-style: none;
-    border-bottom: 1px solid #222;
+    border-top: 1px solid#222;
+    border-bottom: 0px solid #222;
     border-left: 1px solid #222;
     border-right: 1px solid #222;
+}
+
+#navi:last-child{
+    border-bottom: 1px solid black;
 }
 
 .now{
@@ -180,7 +185,7 @@ nav li.submenu1, li.submenu2, li.submenu3, li.submenu4, li.submenu5{
     font-weight: bold;
     background:#5700a3;
     cursor:pointer;
-    border-top: 1px solid #000;
+    border-top: 0px solid #000;
     border-bottom: 1px solid #000;
     border-left: 1px solid #000;
     border-right: 1px solid #000;
@@ -193,7 +198,7 @@ nav li.submenu1, li.submenu2, li.submenu3, li.submenu4, li.submenu5{
 
 #contents{
     width: 75%;
-    height: 900px;
+    height: 180vh;
     background-color: white;
     float: left;
 }
@@ -215,7 +220,7 @@ nav li.submenu1, li.submenu2, li.submenu3, li.submenu4, li.submenu5{
 } 
 
 .table{
-    margin: 40% auto;
+    margin: 28% auto;
 }
 
 .table, .table th, .table td{
